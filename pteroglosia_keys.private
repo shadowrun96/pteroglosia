@@ -1,0 +1,12 @@
+[Twitter]
+CONSUMER_KEY = <paste yours here>
+CONSUMER_SEC = <paste yours here>
+ACCESS_TOKEN = <paste yours here>
+ACCESS_LEVEL = <paste yours here>
+
+[pteroglosia]
+
+PASSPHRASE = "thick-skinned turnip eaters!"
+POOLKEY = banana
+
+
