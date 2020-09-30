@@ -1,12 +1,17 @@
-# (For historical purposes only)
+# Installation instructions
 
+Before downloading and installing any packages you will need to register the application in Twitter. You can do this by pointing your browser to http://dev.twitter.com/apps and following the instructions to create a new application. 
+In the end you should have the following keys:
+1.  API key
+2.  API secret
+3.  Access token
+4.  Access token secret
+These should be added in the pteroglosia configuration file. Second, you will need to download and install the Twython library for your system. \
+You can find theinstallation instructions at https://github.com/ryanmcgrath/twython.
 
-The code written for the proof-of-concept doesn't work anymore so I've decided not to publish it.  The goo.gl shortening URL was shutdown in 2018, Twitter expanded its character limit to 280, and the Twython library used is 6 years old. The only thing maintanable here is the paper derived from my Bsc project (UoL 2014). 
+# Embedding example
+!(Embedding test run)[embed-test-run.png]
 
-The proof-of-concept described is fairly trivial and is abstract enough to be implemented in other social media and not just Twitter.
-Although I've lost interest, someday I might get around to it.
-
-
-
-
+# Extraction example
+!(Extraction test run)[extract-test-run.png]
 
