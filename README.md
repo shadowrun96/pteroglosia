@@ -10,8 +10,8 @@ These should be added in the pteroglosia configuration file. Second, you will ne
 You can find theinstallation instructions at https://github.com/ryanmcgrath/twython.
 
 # Embedding example
-!(Embedding test run)[embed-test-run.png]
+![Embedding test run](embed-test-run.png)
 
 # Extraction example
-!(Extraction test run)[extract-test-run.png]
+![Extraction test run](extract-test-run.png)
 
