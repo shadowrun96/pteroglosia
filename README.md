@@ -6,6 +6,13 @@ Proof-of-concept code written as part of my Bsc project.
 3. Alice uses the second key to either select a random subset from that list, or use the whole list to randomly map the payload. For goo.gl URLs we need to map 62 different characters: [A-Z][a-z][0-9]. If we use a one-to-one mapping, then we need a list of 62 words. Usually the results from a Twitter search contain more. 
  to embed a URL, Alice looks-up the dictionary using the URL characters as keys and retrieves the matching words. She then manually annotates them to produce a passable looking tweet. (See screenshot below)
 4. Bob looks up his own copy of the dictionary using the words from Alice's tweet as keys and retrieves the hidden goo.gl URL characters.
+
+# Embedding example (Alice)
+![Embedding test run](embed-test-run.png)
+
+# Extraction example (Bob)
+![Extraction test run](extract-test-run.png)
+
 # Installation instructions
 
 Before downloading and installing any packages you will need to register the application in Twitter. You can do this by pointing your browser to http://dev.twitter.com/apps and following the instructions to create a new application. 
@@ -17,10 +24,3 @@ In the end you should have the following keys:
 
 These should be added in the `pteroglosia_keys.private` configuration file. You will need to download and install the Twython library for your system. 
 You can find the installation instructions at https://github.com/ryanmcgrath/twython.
-
-# Embedding example (Alice)
-![Embedding test run](embed-test-run.png)
-
-# Extraction example (Bob)
-![Extraction test run](extract-test-run.png)
-
