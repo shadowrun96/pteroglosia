@@ -17,8 +17,7 @@ keyword_arg = sys.argv[1] # payload
 
 def getKdist(x,n):
     substrate = [0] * x
-# produces a *unique* sample of n numbers ranging from 1 to
-#x. Really handy.
+# produces a *unique* sample of n numbers ranging from 1 to #x. Really handy.
 # we use this sample as positions to which we "sprinkle" n 1 bits on the substrate.
     sel = random.sample(xrange(1,x),n)
     for s in sel:
