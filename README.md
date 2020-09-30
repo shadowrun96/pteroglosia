@@ -1,6 +1,6 @@
 # For historical purposes only.
 
-Proof-of-concept code written as part of my Bsc project. Embeds a shortened goo.gl URL in the text component of a tweet, without any formatting methods, artifacts, or grammars. The payload encoding and size is parametric in nature. The system can also be implemented in other social media platforms, besides Twitter.
+Proof-of-concept code written as part of my BSc project. Embeds a shortened goo.gl URL in the text component of a tweet, without any formatting methods, artifacts, or grammars. The payload encoding and size is parametric in nature. The system can also be implemented in other social media platforms, besides Twitter.
 
 1. Alice and Bob exchange two keys: the first is used as a search term, the second to randomize the order of the dictionary and the mapping of words to goo.gl URL characters. 
 2. Alice uses the first key to build a list of matching tweets. She removes stop words,  and other artifacts, and produces a final list that contains only words.
