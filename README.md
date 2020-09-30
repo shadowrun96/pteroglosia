@@ -1,6 +1,6 @@
 # For historical purposes only.
 
-See paper.
+Proof-of-concept code written as part of my Bsc project. 
 
 # Installation instructions
 
