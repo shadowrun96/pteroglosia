@@ -14,9 +14,9 @@ In the end you should have the following keys:
 These should be added in the `pteroglosia_keys.private` configuration file. You will need to download and install the Twython library for your system. 
 You can find the installation instructions at https://github.com/ryanmcgrath/twython.
 
-# Embedding example
+# Embedding example (Alice)
 ![Embedding test run](embed-test-run.png)
 
-# Extraction example
+# Extraction example (Bob)
 ![Extraction test run](extract-test-run.png)
 
