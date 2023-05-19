@@ -1,7 +1,7 @@
 # For historical purposes only._
 _(Update: 2022) Mostly deprecated by now, since the Twitter API has probably changed completely while Google has shutdown the goo.gl service. However the steganographic scheme behind it still holds._
 
-Proof-of-concept code written as part of my BSc project.  Embeds a shortened goo.gl URL in the text component of a tweet, without any formatting methods, artifacts, or grammars. The system can also be implemented in other social media platforms, besides Twitter, with an arbitrary payload and size. The heart of the system is a synchronized pair of dictionaries that contain a mapping of URL symbols to tweet words.
+Proof-of-concept code written as part of my BSc project in 2014.  Embeds a shortened goo.gl URL in the text component of a tweet, without any formatting methods, artifacts, or grammars. The system can also be implemented in other social media platforms, besides Twitter, with an arbitrary payload and size. The heart of the system is a synchronized pair of dictionaries that contain a mapping of URL symbols to tweet words.
 
 1. Alice and Bob exchange two keys: the first is used as a search term, the second to randomize the order of the dictionary and the mapping of words to goo.gl URL characters. 
 2. Alice uses the first key to build a list of matching tweets. She removes stop words,  and other artifacts, and produces a final list that contains only words.
